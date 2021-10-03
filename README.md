@@ -21,6 +21,7 @@ I: để sử dụng Profiler
     - Biểu đồ giao diện hiển thị thời gian dành cho việc tính toán bố cục và kết cấu . Phần chi tiết giao diện người dùng cung cấp thông tin quan trọng về quá trình chạy của sản phẩm
  - 3: Chọn panel `UIDetails` và ghi lại thành bảng phân tích canvas trong sence của bạn 
  - ![image](https://user-images.githubusercontent.com/47918431/135763092-7ba0abe6-db52-436c-a948-5470fed2a4cd.png)
+ - Các phần quan trọng nhất của bảng này là số lượng của batches trong sence và lí do các phần tử không được kết hợp với nhau . Các Phần tử động sẽ được chia batches riêng biệt vì canvas động được lồng vào canvas tĩnh .
 
 
 
