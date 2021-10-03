@@ -10,5 +10,19 @@
 ![image](https://user-images.githubusercontent.com/47918431/135761714-fb5910ef-6cea-41ec-81ea-87b9def94bea.png)
 <a name="How"></a>
 ## II. UI and UI Details Profiler Dùng như thế nào ?
+I: để sử dụng Profiler 
+ - 1: Mở Profiler `Window` -> `Analyis` -> `Profiler`
+ - ![image](https://user-images.githubusercontent.com/47918431/135762542-fb77b537-d5f3-4438-bef1-bcbdad01bfa8.png)
+ - 2: Cấu hình lại Profiler 
+    - Ở góc trên cùng bên trái `Profiler Modules` , và mở nó xuống và chọn các mục `CPU , UI , UI Details`
+    - ![image](https://user-images.githubusercontent.com/47918431/135762741-eae6054d-cd04-4df8-8d93-66bc2f075c79.png)
+    - kết quả hiển thị :
+    - ![image](https://user-images.githubusercontent.com/47918431/135763119-04e82995-1421-46b4-a52c-5f4f0864dd18.png)
+    - Biểu đồ giao diện hiển thị thời gian dành cho việc tính toán bố cục và kết cấu . Phần chi tiết giao diện người dùng cung cấp thông tin quan trọng về quá trình chạy của sản phẩm
+ - 3: Chọn panel `UIDetails` và ghi lại thành bảng phân tích canvas trong sence của bạn 
+ - ![image](https://user-images.githubusercontent.com/47918431/135763092-7ba0abe6-db52-436c-a948-5470fed2a4cd.png)
+
+
+
 <a name="When"></a>
 ## III. UI and UI Details Profiler Dùng trong trường hợp thế nào ?
