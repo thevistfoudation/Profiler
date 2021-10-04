@@ -22,7 +22,8 @@ I: để sử dụng Profiler
  - 3: Chọn panel `UIDetails` và ghi lại thành bảng phân tích canvas trong sence của bạn 
  - ![image](https://user-images.githubusercontent.com/47918431/135763092-7ba0abe6-db52-436c-a948-5470fed2a4cd.png)
  - Các phần quan trọng nhất của bảng này là số lượng của batches trong sence và lí do các phần tử không được kết hợp với nhau . Các Phần tử động sẽ được chia batches riêng biệt vì canvas động được lồng vào canvas tĩnh .
-
+https://docs.unity3d.com/2019.1/Documentation/Manual/ProfilerUI.html
+https://learn.unity.com/tutorial/ui-profiler-2019-3
 
 
 <a name="When"></a>
