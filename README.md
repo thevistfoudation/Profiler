@@ -21,10 +21,17 @@ I: để sử dụng Profiler
     - Biểu đồ giao diện hiển thị thời gian dành cho việc tính toán bố cục và kết cấu . Phần chi tiết giao diện người dùng cung cấp thông tin quan trọng về quá trình chạy của sản phẩm
  - 3: Chọn panel `UIDetails` và ghi lại thành bảng phân tích canvas trong sence của bạn 
  - ![image](https://user-images.githubusercontent.com/47918431/135763092-7ba0abe6-db52-436c-a948-5470fed2a4cd.png)
- - Các phần quan trọng nhất của bảng này là số lượng của batches trong sence và lí do các phần tử không được kết hợp với nhau . Các Phần tử động sẽ được chia batches riêng biệt vì canvas động được lồng vào canvas tĩnh .
+ - 4 : Click vào 1 phần tử trên giao diện  sẽ thấy điểm được đánh dấu xuất hiện , và điểm được đánh dấu này sẽ hiện thị layout và quá trình render của cpu lúc event được triggered
+ - ![image](https://user-images.githubusercontent.com/47918431/136245472-fd424c37-20d1-4c9e-9455-aea40c14a164.png)
+
 https://docs.unity3d.com/2019.1/Documentation/Manual/ProfilerUI.html
 https://learn.unity.com/tutorial/ui-profiler-2019-3
 
 
 <a name="When"></a>
-## III. UI and UI Details Profiler Dùng trong trường hợp thế nào ?
+## III. Tổng kết UI and UI Details Profiler
+- Markers can be overwhelming, depending on the usecase profiled. Hiding or showing them when needed helps the chart readability.
+- To make visibility clearer, you can select the preview background according to the UI you are previewing. A white-ish UI on a white background won’t be readable, for example, so you can change it.
+- Detaching the preview allows better screen estate management.
+- Overdraw and composite overdraw are used to determine which parts of the UI are drawn for nothing
+
