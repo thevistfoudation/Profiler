@@ -23,6 +23,8 @@ I: để sử dụng Profiler
  - ![image](https://user-images.githubusercontent.com/47918431/135763092-7ba0abe6-db52-436c-a948-5470fed2a4cd.png)
  - 4 : Click vào 1 phần tử trên giao diện  sẽ thấy điểm được đánh dấu xuất hiện , và điểm được đánh dấu này sẽ hiện thị layout và quá trình render của cpu lúc event được triggered
  - ![image](https://user-images.githubusercontent.com/47918431/136245472-fd424c37-20d1-4c9e-9455-aea40c14a164.png)
+ -  Sử dụng tính năng này để hiểu cách Unity xử lý theo lô giao diện người dùng cho ứng dụng của bạn, bao gồm lý do và cách các đối tượng được phân lô(UI batching). Bạn cũng có thể sử dụng UI profiler  để tìm hiểu xem phần nào của UI chịu trách nhiệm cho việc làm giảm hiệu suất hoặc để xem trước UI (hoặc một phần của nó) trong khi kiểm tra mốc thời gian
+Lưu ý rằng UI profiler sử dụng nhiều tài nguyên và có thể tạo ra chi phí hiệu suất.
 
 <a name="When"></a>
 ## III. 1 số lưu ý khi sử dụng UI Details Profiler
