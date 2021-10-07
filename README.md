@@ -3,7 +3,7 @@
 ### MỤC LỤC 
 - [I.UI and UI Details Profiler là gì ?](#What)
 - [II.UI and UI Details Profiler Dùng như thế nào ?](#How)
-- [III.Tổng kết UI and UI Details Profiler ?](#When)
+- [III.1 số lưu ý khi sử dụng UI Details Profiler ?](#When)
 <a name="What"></a>
 ## I. UI and UI Details Profiler là gì ?
 `UI and UI Details Profiler` là window cung cấp thông tin về lượng thời gian và tài nguyên mà Unity dành để thiết lập và hiển thị giao diện người dùng trong ứng dụng của bạn. Bạn có thể sử dụng modules này để hiểu cách Unity xử lý việc phân lô giao diện người dùng cho ứng dụng của bạn, bao gồm lý do và cách nó phân lô các đối tượng. Bạn cũng có thể sử dụng modules này để tìm hiểu xem phần nào của giao diện người dùng chịu trách nhiệm cho hiệu suất chậm hoặc để xem trước giao diện người dùng trong khi bạn kiểm tra dòng thời gian.
@@ -24,12 +24,10 @@ I: để sử dụng Profiler
  - 4 : Click vào 1 phần tử trên giao diện  sẽ thấy điểm được đánh dấu xuất hiện , và điểm được đánh dấu này sẽ hiện thị layout và quá trình render của cpu lúc event được triggered
  - ![image](https://user-images.githubusercontent.com/47918431/136245472-fd424c37-20d1-4c9e-9455-aea40c14a164.png)
 
-https://docs.unity3d.com/2019.1/Documentation/Manual/ProfilerUI.html
-https://learn.unity.com/tutorial/ui-profiler-2019-3
-
-
 <a name="When"></a>
-## III. Tổng kết UI and UI Details Profiler
+## III. 1 số lưu ý khi sử dụng UI Details Profiler
 - Các điểm được đánh dấu để phân tích có thể bị overwhelming, tùy thuộc vào  usecase profiled. Ẩn hoặc hiện để giúp biểu đồ dễ đọc hơn .
 - Để hiển thị rõ ràng hơn ,có thể chọn background theo UI để xem trước , ví dụ(nếu giao diện UI màu trắng ở trên nền trắng sẽ khó đọc được nên có thể thay đổi nó )
+- tài liệu thảm khảo thêm : https://learn.unity.com/tutorial/ui-profiler-2019-3
+- https://docs.unity3d.com/2019.1/Documentation/Manual/ProfilerUI.html
 
