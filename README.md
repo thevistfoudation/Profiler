@@ -30,6 +30,6 @@ https://learn.unity.com/tutorial/ui-profiler-2019-3
 
 <a name="When"></a>
 ## III. Tổng kết UI and UI Details Profiler
--các điểm được đánh dấu để phân tích có thể bị overwhelming, tùy thuộc vào  usecase profiled. Ẩn hoặc hiện để giúp biểu đồ dễ đọc hơn .
+- Các điểm được đánh dấu để phân tích có thể bị overwhelming, tùy thuộc vào  usecase profiled. Ẩn hoặc hiện để giúp biểu đồ dễ đọc hơn .
 - Để hiển thị rõ ràng hơn ,có thể chọn background theo UI để xem trước , ví dụ(nếu giao diện UI màu trắng ở trên nền trắng sẽ khó đọc được nên có thể thay đổi nó )
 
