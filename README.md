@@ -30,8 +30,6 @@ https://learn.unity.com/tutorial/ui-profiler-2019-3
 
 <a name="When"></a>
 ## III. Tổng kết UI and UI Details Profiler
-- Markers can be overwhelming, depending on the usecase profiled. Hiding or showing them when needed helps the chart readability.
-- To make visibility clearer, you can select the preview background according to the UI you are previewing. A white-ish UI on a white background won’t be readable, for example, so you can change it.
-- Detaching the preview allows better screen estate management.
-- Overdraw and composite overdraw are used to determine which parts of the UI are drawn for nothing
+-các điểm được đánh dấu để phân tích có thể bị overwhelming, tùy thuộc vào  usecase profiled. Ẩn hoặc hiện để giúp biểu đồ dễ đọc hơn .
+- Để hiển thị rõ ràng hơn ,có thể chọn background theo UI để xem trước , ví dụ(nếu giao diện UI màu trắng ở trên nền trắng sẽ khó đọc được nên có thể thay đổi nó )
 
